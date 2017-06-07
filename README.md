@@ -8,14 +8,12 @@ Download this user_agent.php and replace it for you application/config/user_agen
 This array is incomplete.
 
 # Example
-<code>
+
 $this->load->library('user_agent');
-\n
+
 if ($this->agent->is_browser()){
-<br>
     $agent = $this->agent->browser().' '.$this->agent->version();
 }
-</code>
 elseif ($this->agent->is_mobile()){
     $agent = $this->agent->mobile();
 }
@@ -27,4 +25,3 @@ else{
 echo $agent;
 
 echo $this->agent->platform(); // Platform info (Windows, Linux, Mac, etc.) if is smpthphone (Google Pixel, Samsum Galaxy S5, Samsung J7 Metal, etc)
-</code>
