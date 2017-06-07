@@ -10,15 +10,16 @@ This array is incomplete.
 # Example
 <code>
 $this->load->library('user_agent');
-
-
+</code>
+<code>
 if ($this->agent->is_browser()){
-
-
-$agent = $this->agent->browser().' '.$this->agent->version();
-
-
+</code>
+<code>
+    $agent = $this->agent->browser().' '.$this->agent->version();
+</code>
+<code
 }
+</code>
 elseif ($this->agent->is_mobile()){
     $agent = $this->agent->mobile();
 }
