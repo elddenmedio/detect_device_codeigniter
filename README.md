@@ -5,8 +5,7 @@ This method can detect as many smathphones devices as you add
 
 # First
 Download this user_agent.php and replace it for you application/config/user_agent.php
-
-This array is incomplete, if you want more, you need to detect the model and add in the proper area
+This array is incomplete.
 
 # Example
 
