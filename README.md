@@ -13,7 +13,9 @@ $this->load->library('user_agent');
 
 
 if ($this->agent->is_browser()){
+
     $agent = $this->agent->browser().' '.$this->agent->version();
+    
 }
 elseif ($this->agent->is_mobile()){
     $agent = $this->agent->mobile();
